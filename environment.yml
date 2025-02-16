@@ -1,0 +1,11 @@
+name: myenv  # Change this to your preferred environment name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10  # Adjust this if needed
+  - voila
+  - fastai
+  - pillow
+  - packaging
+  - ipywidgets
